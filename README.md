@@ -1,9 +1,4 @@
-#World countries in JSON, CSV, XML and YAML.
-
-[![Downloads](https://img.shields.io/npm/dm/world-countries.svg?style=flat)](https://www.npmjs.com/package/world-countries)
-[![Latest Stable Version](https://img.shields.io/npm/v/world-countries.svg?style=flat)](https://www.npmjs.com/package/world-countries)
-[![Latest Stable Version](https://img.shields.io/packagist/v/mledoze/countries.svg?style=flat)](https://packagist.org/packages/mledoze/countries)
-[![License](https://img.shields.io/packagist/l/mledoze/countries.svg?style=flat)](http://opendatacommons.org/licenses/odbl/1.0/)
+# De-facto FORK of the [mledoze/countries](https://github.com/mledoze/countries)
 
 ## Countries data
 This repository contains lists of world countries in JSON, CSV and XML. Each line contains the country:
@@ -148,25 +143,8 @@ php countries.php convert --exclude-field=tld --exclude-field=cca2
 php countries.php convert -x tld -x cca2
 ```
 
-## Showcase
-Projects using this dataset:
-
-- [REST Countries](http://restcountries.eu/)
-- [International Telephone Input](http://jackocnr.com/intl-tel-input.html)
-- [Telephone JS](https://github.com/lukaswhite/telephones-js)
-- [Countries of the World](http://countries.petethompson.net/)
-- [Country Prefix Codes For Go](https://github.com/relops/prefixes)
-- [Country Info Mapper in Go](https://github.com/pirsquare/country-mapper)
-- [Visa requirements in JSON](https://github.com/herrniemand/visas)
-- [Counter picker modal for React Native](https://github.com/xcarpentier/react-native-country-picker-modal)
-- [Agnostic Virtual Assistant](https://github.com/ava-ia/core)
-
 ## How to contribute?
 Please refer to [CONTRIBUTING](https://github.com/mledoze/countries/blob/master/CONTRIBUTING.md).
-
-## To do
- - add the type of the country (country, sovereign state, public body, territory, etc.)
- - add missing translations
 
 ## Sources
 http://www.currency-iso.org/ for currency codes.
@@ -178,14 +156,8 @@ GeoJSON outlines come from http://thematicmapping.org/downloads/world_borders.ph
 The rest comes from Wikipedia.
 
 ## Credits
-Thanks to:
- - @Glazz for his help with country calling codes
- - @hexorx for his work (https://github.com/hexorx/countries)
- - @frederik-jacques for the capital cities
- - @fayer for the population, geolocation, demonym and area data
- - @ancosen for his help with the borders data
- - @herrjemand for country names and various fixes
- - all the contributors: https://github.com/mledoze/countries/graphs/contributors
+All credits go to original countries authors: 
+ - https://github.com/mledoze/countries/graphs/contributors
 
 ## License
 See [LICENSE](https://github.com/mledoze/countries/blob/master/LICENSE).
