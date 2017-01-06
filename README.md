@@ -1,4 +1,4 @@
-# De-facto FORK of the [mledoze/countries](https://github.com/mledoze/countries)
+# De-facto FORK of the [mledoze/countries](countries)
 
 ## Countries data
 This repository contains lists of world countries in JSON, CSV and XML. Each line contains the country:
@@ -37,7 +37,7 @@ This repository contains lists of world countries in JSON, CSV and XML. Each lin
  - land area in km² (`area`)
 
 #### Additional data
-The [data](https://github.com/mledoze/countries/tree/master/data) folder contains additional data such as the countries
+The [data](countries/tree/master/data) folder contains additional data such as the countries
 GeoJSON outlines and flags in SVG format.
 
 ##Examples
@@ -89,7 +89,7 @@ GeoJSON outlines and flags in SVG format.
 ```
 
 #####GeoJSON outline
-See an example for [Germany](https://github.com/mledoze/countries/blob/bb61a1cddfefd09ad5c92ad0a1effbfceba39930/data/deu.geo.json).
+See an example for [Germany](countries/blob/bb61a1cddfefd09ad5c92ad0a1effbfceba39930/data/deu.geo.json).
 
 #####CSV
 ```csv
@@ -144,7 +144,7 @@ php countries.php convert -x tld -x cca2
 ```
 
 ## How to contribute?
-Please refer to [CONTRIBUTING](https://github.com/mledoze/countries/blob/master/CONTRIBUTING.md).
+Please refer to [CONTRIBUTING](countries/blob/master/CONTRIBUTING.md).
 
 ## Sources
 http://www.currency-iso.org/ for currency codes.
@@ -160,4 +160,4 @@ All credits go to original countries authors:
  - https://github.com/mledoze/countries/graphs/contributors
 
 ## License
-See [LICENSE](https://github.com/mledoze/countries/blob/master/LICENSE).
+See [LICENSE](countries/blob/master/LICENSE).
