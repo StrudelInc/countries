@@ -15,6 +15,7 @@ This repository contains lists of world countries in JSON, CSV and XML. Each lin
  - code ISO 3166-1 alpha-2 (`cca2`)
  - code ISO 3166-1 numeric (`ccn3`)
  - code ISO 3166-1 alpha-3 (`cca3`)
+ - code Countries Standardized Visas Code alpha-4 (`csvc`)
  - code International Olympic Committee (`cioc`)
  - ISO 4217 currency code(s) (`currency`)
  - calling code(s) (`callingCode`)
@@ -22,6 +23,7 @@ This repository contains lists of world countries in JSON, CSV and XML. Each lin
  - alternative spellings (`altSpellings`)
  - region
  - subregion
+ - jurisdiction
  - list of official languages (`languages`)
  	- key: three-letter ISO 639-3 language code
  	- value: name of the language in english
